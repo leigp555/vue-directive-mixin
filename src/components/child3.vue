@@ -1,6 +1,5 @@
 <template>
   <div class="child" v-if="child">
-    <button @click="child=false">删除</button>
   </div>
 </template>
 <script>

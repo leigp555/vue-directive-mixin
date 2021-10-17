@@ -4,14 +4,16 @@
   </div>
 </template>
 <script>
-import log from "../mixins/log.js"
+// import log from "../mixins/log.js"
+import MyVue from "../extends.js";
 export default {
   data(){
     return {
-      name:"child4",
+      name:"child5",
     }
   },
-  mixins:[log]
+  extends:MyVue,
+  // mixins:[log]
   // props:["show"],
   // created() {
   //   console.log("child4出生了")
@@ -25,6 +27,6 @@ export default {
 .child{
   width: 50px;
   height: 50px;
-  background-color: black;
+  background-color: yellow;
 }
 </style>

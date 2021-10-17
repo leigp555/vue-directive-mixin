@@ -1,6 +1,5 @@
 <template>
   <div class="child" >
-    <button @click="remove">删除</button>
   </div>
 </template>
 <script>
@@ -9,7 +8,6 @@ export default {
   data(){
     return {
       name:"child2",
-
     }
   },
   mixins:[log],
